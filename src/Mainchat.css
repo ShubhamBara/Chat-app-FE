@@ -1,0 +1,90 @@
+.mainchat_body{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black
+}
+.mainchat_subhead{
+    display: flex;
+    align-items: center;
+    padding:5px;
+    
+}
+
+.mainchat_subhead_left{
+    width:15%;
+}
+.mainchat_subhead_center{
+    width:55%;
+}
+.mainchat_subhead_right{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+}
+.mainchat_subhead_right > .MuiIconButton-root {
+    padding: 5px;
+}
+
+.mainchat_chat {
+    /* position: absolute; */
+    background: url(./lol.png)no-repeat center center/cover;        
+    flex:1;
+    /* height: 88%;
+    width: 100%; */
+    overflow-y: scroll;
+    /* opacity: 0.8; */
+    
+}
+.mainchat_chat_message{
+    margin:30px 5px;
+    position: relative;
+    padding: 2px 5px;
+    background-color: #ffffff;
+    border-radius: 5px ;
+    width: fit-content;
+    /* margin-bottom: 30px; */
+}
+.mainchat_send{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.mainchat_chat_message_name{
+    font-weight: 700;
+    font-size: xx-small;
+    position: absolute;
+    top:-15px;
+
+}
+.mainchat_chat_message_time{
+    margin-left: 10px;
+    font-size: xx-small;
+
+}
+.mainchat_footer{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-radius: 25px;
+    background-color:#ffff;
+}
+.mainchat_footer > .MuiIconButton-root{
+    padding:5px;
+    
+}
+.mainchat_footer form{
+    flex: 1;
+}
+.mainchat_footer input{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 5px 0;
+}
+.mainchat_footer button{
+    display: hidden;
+}
+/* .MuiSvgIcon-root{
+    background-color:green;
+} */

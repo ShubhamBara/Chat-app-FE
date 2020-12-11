@@ -1,0 +1,11 @@
+.sidebar_chat_container{
+    display: flex;
+    align-items: center;
+    padding:12px 6px;
+    /* background-color: whitesmoke; */
+}
+
+.sidebar_chat_container:hover{
+    background-color:#ebebeb;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.sidebar_body{
+    width: 35%;
+    flex-direction: column;
+    border:1px solid black
+}
+.sidebar_subhead{
+    display: flex;
+    padding:5px;
+}
+
+.sidebar_subhead_left{
+    width: 50%;
+
+}
+     
+.sidebar_subhead_right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sidebar_subhead_right div{
+    display :flex;
+    align-items: center;
+}
+.sidebar_subhead_right div > .MuiIconButton-root{
+    padding:5px;
+    /* align-items: center; */
+
+}
+
+
+#sidebar_search{
+    display: flex;
+    background-color: white; 
+    margin-bottom:4px;
+}
+/* search input */
+#sidebar_search_people{
+    outline-width:0 ;
+    border:none ;
+    width: 100%;
+    background-color: white;
+
+}
+
+#sidebar_chat{
+    /* display:flex;
+    flex-direction: column; */
+    flex:1;
+    background-color: white;
+}
+#sidebar_chat h2{
+    text-align: center;
+    
+}
+#sidebar_chat h2:hover{
+    background-color: grey;
+    cursor: pointer;
+}
